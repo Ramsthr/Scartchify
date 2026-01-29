@@ -1,0 +1,19 @@
+name: scratchify_example
+description: "Example app for the scratchify package."
+
+publish_to: 'none'
+
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  scratchify:
+    path: ../
+
+
+flutter:
+  uses-material-design: true
